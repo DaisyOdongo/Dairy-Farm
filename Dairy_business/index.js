@@ -8,3 +8,4 @@ function totalProduction(){
 
     document.getElementById('total').value ="The total Production in Shed A is "+shed_A +"litres per day"+"The total Production in Shed B is "+shed_B +"litres per day"+"The total Production in Shed C is "+shed_C +"litres per day"+"The total Production in Shed D is "+shed_D +"litres per day"+"The total Production is "+sum +"litres per day"
 }
+
