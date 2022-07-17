@@ -16,3 +16,7 @@ function incomeOverTime(){
 
     document.getElementById("total").value = "\nYour weekly income will be Ksh "+incomeInWeek+"\nYour Yearly income will be Ksh "+incomeInYear
 }
+
+function monthlyIncome(){
+    var sellingPrice =  parseInt(document.getElementById("buyingRate").value);  
+}
