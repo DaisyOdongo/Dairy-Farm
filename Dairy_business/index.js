@@ -33,15 +33,15 @@ function monthlyIncome(){
     var incomeDec = sellingPrice * 30;
 
     document.getElementById("total").value = "\nYour January income is: "+incomeJan;
-    document.getElementById("total").value = "\nYour January income is: "+incomeFeb;
-    document.getElementById("total").value = "\nYour January income is: "+incomeMarch;
-    document.getElementById("total").value = "\nYour January income is: "+incomeApril;
-    document.getElementById("total").value = "\nYour January income is: "+incomeMay;
-    document.getElementById("total").value = "\nYour January income is: "+incomeJune;
-    document.getElementById("total").value = "\nYour January income is: "+incomeJuly;
-    document.getElementById("total").value = "\nYour January income is: "+incomeAugust;
-    document.getElementById("total").value = "\nYour January income is: "+incomeSep;
-    document.getElementById("total").value = "\nYour January income is: "+incomeOct;
-    document.getElementById("total").value = "\nYour January income is: "+incomeNov;
-    document.getElementById("total").value = "\nYour January income is: "+incomeDec;
+    document.getElementById("total").value = "\nYour February income is: "+incomeFeb;
+    document.getElementById("total").value = "\nYour March income is: "+incomeMarch;
+    document.getElementById("total").value = "\nYour April income is: "+incomeApril;
+    document.getElementById("total").value = "\nYour May income is: "+incomeMay;
+    document.getElementById("total").value = "\nYour June income is: "+incomeJune;
+    document.getElementById("total").value = "\nYour July income is: "+incomeJuly;
+    document.getElementById("total").value = "\nYour August income is: "+incomeAugust;
+    document.getElementById("total").value = "\nYour September income is: "+incomeSep;
+    document.getElementById("total").value = "\nYour October income is: "+incomeOct;
+    document.getElementById("total").value = "\nYour November income is: "+incomeNov;
+    document.getElementById("total").value = "\nYour December income is: "+incomeDec;
 }
