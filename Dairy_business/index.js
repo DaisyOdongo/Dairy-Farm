@@ -19,16 +19,29 @@ function incomeOverTime(){
 
 function monthlyIncome(){
     var sellingPrice =  parseInt(document.getElementById("buyingRate").value);  
-    varincomeJan = sellingPrice * 31;
-    varincomeFeb = sellingPrice * 29;
-    varincomeMarch = sellingPrice * 31;
-    varincomeApril = sellingPrice * 30;
-    varincomeMay = sellingPrice * 31;
-    varincomeJune = sellingPrice * 30;
-    varincomeJuly = sellingPrice * 31;
-    varincomeAugust = sellingPrice * 30;
-    varincomeSep = sellingPrice * 31;
-    varincomeOct = sellingPrice * 30;
-    varincomeNov = sellingPrice * 31;
-    varincomeDec = sellingPrice * 30;
+    var incomeJan = sellingPrice * 31;
+    var incomeFeb = sellingPrice * 29;
+    var incomeMarch = sellingPrice * 31;
+    var incomeApril = sellingPrice * 30;
+    var incomeMay = sellingPrice * 31;
+    var incomeJune = sellingPrice * 30;
+    var incomeJuly = sellingPrice * 31;
+    var incomeAugust = sellingPrice * 30;
+    var incomeSep = sellingPrice * 31;
+    var incomeOct = sellingPrice * 30;
+    var incomeNov = sellingPrice * 31;
+    var incomeDec = sellingPrice * 30;
+
+    document.getElementById("total").value = "\nYour January income is: "+incomeJan;
+    document.getElementById("total").value = "\nYour January income is: "+incomeFeb;
+    document.getElementById("total").value = "\nYour January income is: "+incomeMarch;
+    document.getElementById("total").value = "\nYour January income is: "+incomeApril;
+    document.getElementById("total").value = "\nYour January income is: "+incomeMay;
+    document.getElementById("total").value = "\nYour January income is: "+incomeJune;
+    document.getElementById("total").value = "\nYour January income is: "+incomeJuly;
+    document.getElementById("total").value = "\nYour January income is: "+incomeAugust;
+    document.getElementById("total").value = "\nYour January income is: "+incomeSep;
+    document.getElementById("total").value = "\nYour January income is: "+incomeOct;
+    document.getElementById("total").value = "\nYour January income is: "+incomeNov;
+    document.getElementById("total").value = "\nYour January income is: "+incomeDec;
 }
