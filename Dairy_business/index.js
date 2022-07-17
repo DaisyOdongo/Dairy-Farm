@@ -37,7 +37,7 @@ function monthlyIncome(){
     var incomeMay = sellingPrice *totalLtrs* 31;
     var incomeJune = sellingPrice *totalLtrs* 30;
     var incomeJuly = sellingPrice *totalLtrs* 31;
-    var incomeAugust = sellingPrice * 31;
+    var incomeAugust = sellingPrice *totalLtrs* 31;
     var incomeSep = sellingPrice *totalLtrs* 30;
     var incomeOct = sellingPrice *totalLtrs* 31;
     var incomeNov = sellingPrice *totalLtrs* 30;
