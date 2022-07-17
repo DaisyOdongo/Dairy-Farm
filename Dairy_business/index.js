@@ -11,8 +11,8 @@ function totalProduction(){
 
 function incomeOverTime(){
     var sellingPrice =  parseInt(document.getElementById("buyingRate").value);
-    var incomeInWeek = sellingPrice*7 //7 days in a week
-    var incomeInYear = sellingPrice * 366 //366 days in a leap year
+    var incomeInWeek = sellingPrice*7; //7 days in a week
+    var incomeInYear = sellingPrice * 366; //366 days in a leap year
 
     document.getElementById("total").value = "\nYour weekly income will be Ksh "+incomeInWeek+"\nYour Yearly income will be Ksh "+incomeInYear;
 }
@@ -32,16 +32,6 @@ function monthlyIncome(){
     var incomeNov = sellingPrice * 31;
     var incomeDec = sellingPrice * 30;
 
-    document.getElementById("total").value = "\nYour January income is: "+incomeJan;
-    document.getElementById("total").value = "\nYour February income is: "+incomeFeb;
-    document.getElementById("total").value = "\nYour March income is: "+incomeMarch;
-    document.getElementById("total").value = "\nYour April income is: "+incomeApril;
-    document.getElementById("total").value = "\nYour May income is: "+incomeMay;
-    document.getElementById("total").value = "\nYour June income is: "+incomeJune;
-    document.getElementById("total").value = "\nYour July income is: "+incomeJuly;
-    document.getElementById("total").value = "\nYour August income is: "+incomeAugust;
-    document.getElementById("total").value = "\nYour September income is: "+incomeSep;
-    document.getElementById("total").value = "\nYour October income is: "+incomeOct;
-    document.getElementById("total").value = "\nYour November income is: "+incomeNov;
-    document.getElementById("total").value = "\nYour December income is: "+incomeDec;
+ 
+    document.getElementById("total").value = "\nYour January income is: "+incomeJan+ "\nYour February income is: "+incomeFeb+ "\nYour March income is: "+incomeMarch+ "\nYour April income is: "+incomeApril+ "\nYour May income is: "+incomeMay+ "\nYour June income is: "+incomeJune+ "\nYour July income is: "+incomeJuly+ "\nYour August income is: "+incomeAugust+ "\nYour September income is: "+incomeSep+ "\nYour October income is: "+incomeOct+ "\nYour November income is: "+incomeNov+ "\nYour December income is: "+incomeDec;
 }
