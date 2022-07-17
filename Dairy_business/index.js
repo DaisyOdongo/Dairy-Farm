@@ -11,7 +11,7 @@ function totalProduction(){
 
 function incomeOverTime(){
     var sellingPrice =  parseInt(document.getElementById("buyingRate").value);
-    var incomeInWeek = sellingPrice*7; //7 days in a week
+    var incomeInWeek = sellingPrice* 7; //7 days in a week
     var incomeInYear = sellingPrice * 366; //366 days in a leap year
 
     document.getElementById("total").value = "\nYour weekly income will be Ksh "+incomeInWeek+"\nYour Yearly income will be Ksh "+incomeInYear;
@@ -26,11 +26,11 @@ function monthlyIncome(){
     var incomeMay = sellingPrice * 31;
     var incomeJune = sellingPrice * 30;
     var incomeJuly = sellingPrice * 31;
-    var incomeAugust = sellingPrice * 30;
-    var incomeSep = sellingPrice * 31;
-    var incomeOct = sellingPrice * 30;
-    var incomeNov = sellingPrice * 31;
-    var incomeDec = sellingPrice * 30;
+    var incomeAugust = sellingPrice * 31;
+    var incomeSep = sellingPrice * 30;
+    var incomeOct = sellingPrice * 31;
+    var incomeNov = sellingPrice * 30;
+    var incomeDec = sellingPrice * 31;
 
  
     document.getElementById("total").value = "\nYour January income is: "+incomeJan+ "\nYour February income is: "+incomeFeb+ "\nYour March income is: "+incomeMarch+ "\nYour April income is: "+incomeApril+ "\nYour May income is: "+incomeMay+ "\nYour June income is: "+incomeJune+ "\nYour July income is: "+incomeJuly+ "\nYour August income is: "+incomeAugust+ "\nYour September income is: "+incomeSep+ "\nYour October income is: "+incomeOct+ "\nYour November income is: "+incomeNov+ "\nYour December income is: "+incomeDec;
