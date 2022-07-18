@@ -29,3 +29,7 @@ div{
     padding: 20px;
 }
 
+textarea{
+    width: 800px;
+    height: 200px;
+}

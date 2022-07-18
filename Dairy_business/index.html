@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html>
   
-    <script src="index.js"></script>
-
-   
-
-    <head>
+    
+   <head>
         <link rel="stylesheet" href="index.css">
     </head>
 
-    
-    <body>
+     <body>
         <h3>
             BrookSide Dairy Report Automation
         </h3>
@@ -24,7 +20,7 @@
                 <input type="text" id="shedC" name="Shed C" placeholder="Shed C Amount in Litres">
                 <label for="shedD">Shed D</label>
                 <input type="text" id="shedD" name="Shed D" placeholder="Shed D Amount in Litres">
-                <label for="shedD">BrookSide Buying Rate in KES</label>
+                <label for="buyRate">BrookSide Buying Rate in KES</label>
                 <input type="text" id="buyingRate" name="Buying Rate" placeholder="BrookSide Buying Rate in KES">
 
                 <input type="button" value="Total Production"onClick="totalProduction()">
@@ -32,8 +28,11 @@
                 <input type="button" value="Monthly Earnings"onClick="monthlyIncome()">
             </form>
             <form>
-                <textarea  id="total" cols="80" rows="12">Report Output</textarea>
+                <textarea  id="total">Report Output</textarea>
             </form>
         </div>
+
+        <script src="index.js"></script>
+
     </body>
 </html>
