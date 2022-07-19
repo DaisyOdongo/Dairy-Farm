@@ -10,7 +10,7 @@ input[type=text], select{
 
 input[type=button] {
     width: 32;
-    background-color: #4CA;
+    background-color: rgb(58, 173, 145);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -20,7 +20,7 @@ input[type=button] {
 }
 
 input[type = button]:hover{
-    background-color: #45a049;
+    background-color: #4ea752;
 
 }
 div{
