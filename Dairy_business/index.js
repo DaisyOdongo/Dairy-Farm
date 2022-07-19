@@ -29,6 +29,7 @@ function monthlyIncome(){
     var shed_C = parseInt(document.getElementById("shedC").value);
     var shed_D = parseInt(document.getElementById("shedD").value);
     var totalLtrs = shed_A+shed_B+shed_C+shed_D;
+    
     var sellingPrice = parseInt(document.getElementById("buyingRate").value);  
     var incomeJan = sellingPrice * totalLtrs*31;
     var incomeFeb = sellingPrice *totalLtrs* 29;
